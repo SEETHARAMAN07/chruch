@@ -1,0 +1,132 @@
+.bar{   
+    display: flex;
+    justify-content: center;
+    background-color: #864387;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
+
+}
+body{
+    background: url('https://www.claudiatenhoope.com/wp-content/uploads/2017/11/background1-minmin-1.png'); 
+}
+.top{
+    background-color: blue;
+}
+
+.nav-item{
+    text-align: cente;
+}
+
+.image{
+    box-shadow: 5px 5px 7px black;
+    border: 5px solid white;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+  
+   font-size: 100px; 
+   box-shadow: 10px; 
+   background-color:#ffffff;
+  
+}
+
+.vasanam{
+    margin-top: 5px;
+    border:5px solid gold;
+    height: auto;
+    width: auto;
+}
+.chruch{
+    height: 500px;
+    position:relative;
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    margin-top: auto;
+    border: 2px solid red;
+    background: url("https://thechurchofjesuschrist.org/wp-content/uploads/tcojchero1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 80vh;
+    padding: 30px;
+    grid-gap: 80px;
+    grid-template-areas: 
+    "sb1 m"
+}
+.sidebar{
+    grid-area: sb1;
+    border-color: red;
+    border:  2px;
+    padding: 30px;
+    grid-gap: 30px;
+   
+}
+
+.layout div{
+        
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.main{
+    grid-area: m;
+    text-align: center;
+
+}
+
+.vision{
+    display: flex;
+    margin-bottom: 480px;
+    font-weight: 5px;
+}
+
+.texta{
+    margin-bottom: 500px;
+}
+
+.vis{
+    text-align: left
+}
+
+
+.prayer{
+    text-align: center;
+}
+
+.contact{
+    background-color: #000;
+}
+
+.details{
+    margin-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.icon{
+    margin-right:50px;
+    
+}
+.logos{
+    text-align: center;
+}
+
+.symbol{
+    border: 5px solid gold;
+}
